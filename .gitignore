@@ -1,0 +1,19 @@
+# This is a comment - Git will ignore this line
+
+# 1. Ignore a specific file
+secret_config.json
+
+# 2. Ignore all files ending with a specific extension
+*.log
+*.tmp
+
+# 3. Ignore an entire directory and everything inside it (add a trailing slash)
+node_modules/
+build/
+.env
+# 4. Ignore a folder named 'temp' at any depth in the project
+**/temp/
+
+# 5. Exception rule: Ignore all logs, EXCEPT important.log
+*.log
+!important.log
